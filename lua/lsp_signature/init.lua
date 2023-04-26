@@ -255,7 +255,7 @@ local signature_handler = function(err, result, ctx, config)
 
   if actSig == nil then
     log('no valid signature, or invalid response', result)
-    print('no valid signature or incorrect lsp reponse ', vim.inspect(result))
+    -- print('no valid signature or incorrect lsp reponse ', vim.inspect(result))
     return
   end
 
